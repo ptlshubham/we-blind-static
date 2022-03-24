@@ -490,7 +490,7 @@ img{
 
 .scroll-to-top{
 	position:fixed;
-	bottom:80px;
+	bottom:5px;
 	right:20px;
 	width:50px;
 	height:50px;
@@ -637,7 +637,7 @@ img{
 
 .main-header .logo-box .logo{
 	position: relative;
-	padding: 15px 0;
+	padding: 15px 25px;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -2352,7 +2352,7 @@ header-style-seven .nav-toggler:hover{
 }
 
 .header-style-four.fixed-header .logo-box .logo{
-	padding: 10px 0;
+	padding: 10px 50px;
 }
 
 .header-style-four.fixed-header .main-menu .navigation > li > a{
