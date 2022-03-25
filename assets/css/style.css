@@ -150,7 +150,12 @@ p,.text{
 	padding:0px 15px;
 	margin:0 auto;
 }
-
+.auto-container1{
+	position:static;
+	max-width:1200px;
+	padding:0px 139px;
+	margin:0 auto;
+}
 .page-wrapper{
 	position:relative;
 	margin:0 auto;
@@ -4231,12 +4236,13 @@ header-style-seven .nav-toggler:hover{
 	left: 0;
 	top: 0;
 	width: 100%;
-	font-size: 72px;
-	line-height: 1em;
-	color: #2f2f2f;
+	font-size: 40px;
+	line-height: 2em;
+	/* color: #2f2f2f; */
+	color: #fec200;
 	font-weight: 700;
 	text-transform: uppercase;
-	opacity: .10;
+	opacity: .60;
 	font-family: "Arimo", sans-serif;
 }
 
@@ -5484,7 +5490,8 @@ header-style-seven .nav-toggler:hover{
 	display: inline-block;
 	font-size: 60px;
 	line-height: 1em;
-	color: #ffffff;
+	/* color: #ffffff; */
+	color: #000;
 	font-weight: 700;
 }
 
@@ -5494,7 +5501,8 @@ header-style-seven .nav-toggler:hover{
 	font-size:18px;
 	line-height: 1.2em;
 	font-weight:400;
-	color:#dddddd;
+	/* color:#dddddd; */
+	color: #111111;
 	padding: 9px 0;
 	font-family: "Rubik", sans-serif;
 }
@@ -5683,7 +5691,7 @@ header-style-seven .nav-toggler:hover{
 
 .projects-section{
 	position: relative;
-	padding: 100px 0 0;
+	padding: 50px 0 0;
 }
 
 .projects-section .inner-container{
@@ -5888,7 +5896,7 @@ header-style-seven .nav-toggler:hover{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: -130px;
+	top: -80px;
 	max-width: 1170px;
 	padding: 0 15px;
 	margin: 0 auto;
@@ -5900,7 +5908,8 @@ header-style-seven .nav-toggler:hover{
 	display: inline-block;
 	padding-left: 25px;
 	font-size: 14px;
-	color: #bbbbbb;
+	/* color: #bbbbbb; */
+	color: #fec200;
 	font-weight: 400;
 	text-transform: uppercase;
 	line-height: 30px;
@@ -5926,7 +5935,7 @@ header-style-seven .nav-toggler:hover{
 	top: 0;
 	height: 40px;
 	width: 60px;
-	border: 2px solid #bbbbbb;
+	border: 2px solid #fec200;
 	border-right: 0;
 	content: "";
 	z-index: -1;
@@ -5945,7 +5954,8 @@ header-style-seven .nav-toggler:hover{
 .projects-carousel .owl-next:before{
 	left: auto;
 	right: -25px;
-	border: 2px solid #bbbbbb;
+	/* border: 2px solid #bbbbbb; */
+	border: 2px solid #fec200;
 	border-left: 0;
 }
 
@@ -9397,10 +9407,11 @@ header-style-seven .nav-toggler:hover{
 
 .main-footer .about-widget .text{
 	position: relative;
-	font-size: 15px;
-	line-height: 36px;
+	font-size: 14px;
+	line-height: 25px;
 	color: #f4f4f4;
 	font-weight: 400;
+	text-align: justify;
 }
 
 /*Recent Posts*/
@@ -9517,7 +9528,7 @@ header-style-seven .nav-toggler:hover{
 .main-footer .links-widget .list li a{
 	position:relative;
 	display: block;
-	line-height: 20px;
+	line-height: 15px;
 	font-size: 14px;
 	color: #f4f4f4;
 	font-weight: 400;
