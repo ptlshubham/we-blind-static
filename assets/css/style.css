@@ -5894,9 +5894,9 @@ header-style-seven .nav-toggler:hover{
 
 .projects-carousel .owl-nav{
 	position: absolute;
-	left: 0;
+	left: 30px;
 	right: 0;
-	top: -80px;
+	top: -86px;
 	max-width: 1170px;
 	padding: 0 15px;
 	margin: 0 auto;

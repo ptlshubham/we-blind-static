@@ -265,7 +265,9 @@
 	}
 
 
-
+	.auto-container1{
+		padding: 0 20px;
+	}
 
 	.app-section,
 	.app-section .content-column .inner-column,
@@ -1100,12 +1102,13 @@
 
 	.fact-counter .count-box .counter-title br,
 	.projects-carousel .owl-nav{
-		display: none;
+		/* display: none; */
 	}
 
 	.sec-title .float-text{
-		font-size: 36px;
-		line-height: 72px;
+		font-size: 31px;
+		line-height: 29px;
+		margin-top: -33px;
 	}
 
 	.services-section .upper-box{
