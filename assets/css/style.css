@@ -4233,8 +4233,8 @@ header-style-seven .nav-toggler:hover{
 
 .sec-title .float-text{
 	position: absolute;
-	left: 0;
-	top: 0;
+	/* left: 40%; */
+	top: -145%;
 	width: 100%;
 	font-size: 40px;
 	line-height: 2em;
